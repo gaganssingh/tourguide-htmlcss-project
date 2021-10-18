@@ -96,3 +96,54 @@ ABOUT SECTION
     z-index: -1;
   }
 }
+
+/*
+=============== 
+SERVICES SECTION
+===============
+*/
+.services {
+  background-color: var(--clr-grey-10);
+}
+
+.services-center {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.service {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.service-icon {
+  background-color: var(--clr-primary-5);
+  color: var(--clr-primary-1);
+  padding: 0.5rem;
+  font-size: 2rem;
+  max-width: 5rem;
+}
+
+.service-text {
+  max-width: 20rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .services-center {
+    flex-direction: row;
+  }
+
+  .service {
+    flex-direction: row;
+    text-align: left;
+    gap: 1.5rem;
+  }
+  .service-icon {
+    align-self: flex-start;
+  }
+}
