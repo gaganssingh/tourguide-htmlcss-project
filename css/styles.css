@@ -199,6 +199,17 @@ FEATURED TOURS SECTION
   padding: 1.25rem 1.5rem;
 }
 
+.tour-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour-title p {
+  color: var(--clr-grey-7);
+}
+
 .tour-footer {
   display: flex;
   flex-direction: column;
