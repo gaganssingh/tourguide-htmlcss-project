@@ -145,7 +145,7 @@ HERO SECTION
 
 @media only screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgba(44, 174, 186, 0.55), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(rgba(251, 151, 58, 0.228), rgba(0, 0, 0, 0.7)),
       url("../images/hero.jpeg") center/cover no-repeat;
   }
   .hero-banner {
@@ -361,7 +361,7 @@ GET IN TOUCH SECTION
 ===============
 */
 .contact {
-  background-color: var(--clr-primary-5);
+  background-color: var(--clr-primary-1);
 }
 
 .contact-title {
@@ -488,25 +488,12 @@ FOOTER SECTION
   padding-right: 2rem;
 }
 
-.footer-links,
 .footer-icons {
   display: flex;
   justify-content: center;
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
   gap: 1rem;
-}
-
-.footer-link {
-  color: var(--clr-white);
-  text-transform: capitalize;
-  font-size: 1rem;
-  letter-spacing: var(--spacing);
-  transition: var(--transition);
-}
-
-.footer-link:hover {
-  color: var(--clr-primary-5);
 }
 
 .footer-icon {
